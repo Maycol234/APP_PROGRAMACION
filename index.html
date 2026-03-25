@@ -7,52 +7,84 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <header>
-    <img src="img/programacion.png" alt="Banner Programación" class="banner">
-    <h1>Bienvenido a la App de Programación</h1>
-    <p>Explora conceptos, ejemplos y retos de código.</p>
-  </header>
+  <div class="app">
+    <!-- Header -->
+    <header class="header">
+      <img src="img/programacion.png" alt="Banner Programación" class="banner">
+      <h1>Bienvenido a la App de Programación</h1>
+      <p>Explora conceptos, ejemplos y retos de código.</p>
+    </header>
 
-  <main>
-    <section class="card">
-      <h2>¿Qué es la Programación?</h2>
-      <p>
-        La programación es el arte de dar instrucciones a una computadora para resolver problemas,
-        automatizar tareas y crear aplicaciones que usamos a diario.
-      </p>
-      <button id="btnInfo">Mostrar más información</button>
-      <div id="extraInfo" class="hidden">
-        <p>
-          La programación combina lógica, creatividad y precisión. Permite transformar ideas en
-          soluciones tecnológicas, desde páginas web hasta inteligencia artificial.
-        </p>
-      </div>
+    <!-- Perfil / presentación -->
+    <section class="perfil">
+      <h2>👨‍💻 Alumno</h2>
+      <p>Kevin</p>
     </section>
 
-    <section class="card">
-      <h2>Lenguajes Populares</h2>
-      <ul>
-        <li><strong>JavaScript:</strong> Web interactiva.</li>
-        <li><strong>Python:</strong> Ciencia de datos e IA.</li>
-        <li><strong>Java:</strong> Apps móviles y empresariales.</li>
-        <li><strong>C++:</strong> Videojuegos y sistemas.</li>
-      </ul>
-    </section>
+    <!-- Menú -->
+    <nav class="menu">
+      <button>📘 Conceptos</button>
+      <button>💻 Lenguajes</button>
+      <button>🚀 Beneficios</button>
+    </nav>
 
-    <section class="card">
-      <h2>Beneficios de Aprender Programación</h2>
-      <p>
-        - Desarrolla el pensamiento lógico.<br>
-        - Abre oportunidades laborales.<br>
-        - Permite crear soluciones tecnológicas.<br>
-        - Fomenta la creatividad y la innovación.
-      </p>
-    </section>
-  </main>
+    <!-- Contenido principal -->
+    <main>
+      <!-- Sección 1 -->
+      <section class="seccion activa">
+        <h2>¿Qué es la Programación?</h2>
+        <div class="card">
+          <h3>Definición</h3>
+          <p>
+            La programación es el arte de dar instrucciones a una computadora para resolver problemas,
+            automatizar tareas y crear aplicaciones que usamos a diario.
+          </p>
+          <button id="btnInfo">Mostrar más información</button>
+          <div id="extraInfo" class="hidden">
+            <p>
+              La programación combina lógica, creatividad y precisión. Permite transformar ideas en
+              soluciones tecnológicas, desde páginas web hasta inteligencia artificial.
+            </p>
+          </div>
+        </div>
+      </section>
 
-  <footer>
-    <p>© 2026 App Programación | Creado por Kevin</p>
-  </footer>
+      <!-- Sección 2 -->
+      <section class="seccion">
+        <h2>Lenguajes Populares</h2>
+        <div class="card">
+          <h3>Ejemplos</h3>
+          <ul>
+            <li><strong>JavaScript:</strong> Web interactiva.</li>
+            <li><strong>Python:</strong> Ciencia de datos e IA.</li>
+            <li><strong>Java:</strong> Apps móviles y empresariales.</li>
+            <li><strong>C++:</strong> Videojuegos y sistemas.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Sección 3 -->
+      <section class="seccion">
+        <h2>Beneficios de Aprender Programación</h2>
+        <div class="card">
+          <h3>Ventajas</h3>
+          <p>
+            - Desarrolla el pensamiento lógico.<br>
+            - Abre oportunidades laborales.<br>
+            - Permite crear soluciones tecnológicas.<br>
+            - Fomenta la creatividad y la innovación.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <span>🏠</span>
+      <span>📚</span>
+      <span>⚙️</span>
+    </footer>
+  </div>
 
   <script src="js/script.js"></script>
 </body>
