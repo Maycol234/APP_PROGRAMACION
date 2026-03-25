@@ -52,22 +52,6 @@ main {
   color: #00ff66;
 }
 
-.card button {
-  background: #00ff66;
-  color: black;
-  border: none;
-  padding: 10px 20px;
-  margin-top: 15px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background 0.3s, transform 0.2s;
-}
-
-.card button:hover {
-  background: #00cc55;
-  transform: scale(1.05);
-}
-
 /* Footer */
 footer {
   text-align: center;
