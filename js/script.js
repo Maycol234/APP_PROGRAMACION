@@ -5,7 +5,8 @@ const conceptos = [
   "Bucles: estructuras para repetir acciones.",
   "Objeto: entidad que agrupa propiedades y métodos.",
   "Compilador: traduce código a lenguaje máquina.",
-  "Framework: conjunto de herramientas para facilitar el desarrollo."
+  "Framework: conjunto de herramientas para facilitar el desarrollo.",
+  "API: interfaz que conecta aplicaciones entre sí."
 ];
 
 document.getElementById("btnConcepto").addEventListener("click", () => {
